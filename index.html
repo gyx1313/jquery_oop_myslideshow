@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="myslideshow.css">
+</head>
+<body>
+	<div id="slideshow-wrapper"><!-- 最外层容器 -->
+		<div id="slideshow-container"><!-- 轮播部分 -->
+			<ul id="imgList" style="left:-300px "><!-- 图片部分 -->
+				<li>
+					<img src="img/05.jpg">
+				</li>
+				<li>
+					<img src="img/01.jpg">
+				</li>
+				<li>
+					<img src="img/02.jpg">
+				</li>
+				<li>
+					<img src="img/03.jpg">
+				</li>
+				<li>
+					<img src="img/04.jpg">
+				</li>
+				<li>
+					<img src="img/05.jpg">
+				</li>
+				<!-- <li>
+					<img src="img/01.jpg">
+				</li> -->
+			</ul>
+		</div>
+		<div id="buttons">
+			<span></span>
+			<span class="on"></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<a href="javascript:;" id="prev" class="arrow">&lt;</a>
+		<a href="javascript:;" id="next" class="arrow">&gt;</a>
+	</div>
+
+	<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="myslideshow.js"></script>
+	<script>
+		$(function(){
+			console.log('21');
+		});
+	</script>
+</body>
+</html>
